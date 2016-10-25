@@ -1,2 +1,2 @@
 #!/bin/sh
-groups $FT_USER
+groups $FT_USER | tr ' ' ','
