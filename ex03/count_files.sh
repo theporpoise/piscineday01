@@ -1,2 +1,2 @@
 #!/bin/sh
-find .  | wc -l | sed 's/^ *//'
+find . -not -path '*/\.*' | wc -l | sed 's/^ *//'
